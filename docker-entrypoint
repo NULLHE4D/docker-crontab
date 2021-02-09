@@ -28,7 +28,7 @@ get_config() {
 }
 
 DOCKER_SOCK=/var/run/docker.sock
-CRONTAB_FILE=/etc/crontabs/docker
+CRONTAB_FILE=/etc/crontabs/root
 
 # Ensure dir exist - in case of volume mapping
 mkdir -p ${HOME_DIR}/jobs ${HOME_DIR}/projects
